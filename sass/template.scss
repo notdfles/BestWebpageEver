@@ -1,0 +1,41 @@
+/**
+ * Survey Template
+ * Company:  Star Group
+ * Developers: Thomas Peduto, Anson Han, Migdalia Brito, David Leslie, Michael Schiff, Stephen Miller
+ */
+
+
+//Reset and variables
+@import '_reset';
+
+
+//Base styles for all devices
+@import '_base';
+
+
+@media only screen and (min-width: 400px) {
+	@import '_400up';
+}
+
+//Styles for landscape phone
+@media only screen and (min-width: 480px) {
+	@import '_480up';
+}
+
+@media only screen and (min-width: 600px) {
+	@import '_600up';
+}
+
+//Styles for landscape phone
+@media only screen and (min-width: 675px) {
+	@import '_675up';
+}
+
+//Styles for landscape phone
+@media only screen and (min-width: 700px) {
+	@import '_700up';
+}
+
+@media only screen and (min-width: 1024px) {
+	@import '_1024up';
+}

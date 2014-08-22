@@ -1,0 +1,24 @@
+/* The following styles are for IE 8 only*/
+@import '_400up';
+@import '_480up';
+@import '_600up';
+@import '_675up';
+@import '_1024up';
+
+
+/*** Start jQuery UI Theme Styles ***/
+/* Button icon element(s) */
+.ui-button-icon-only .ui-icon,
+.ui-button-text-icon-primary .ui-icon,
+.ui-button-text-icon-secondary .ui-icon,
+.ui-button-text-icons .ui-icon,
+.ui-button-icons-only .ui-icon {
+	margin-top: -9px;
+}
+/*** End jQuery UI Theme Styles ***/
+
+.answers .answer-item.radio-item, .answers .answer-item.checkbox-item  {
+  width: 48%;
+ }
+
+ 
